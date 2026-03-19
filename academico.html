@@ -2,18 +2,25 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acadêmico - MAZZ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>MAZZ - Acadêmico</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#001f3f">
+    <style>
+        body { background-color: #001f3f; color: white; font-family: sans-serif; text-align: center; margin: 0; padding: 40px 20px; }
+        .icon { font-size: 60px; margin-bottom: 10px; }
+        .btn-list { display: flex; flex-direction: column; gap: 12px; width: 100%; max-width: 320px; margin: 0 auto; }
+        .btn { background: white; color: #001f3f; padding: 16px; border-radius: 15px; text-decoration: none; font-weight: bold; }
+    </style>
 </head>
-<body style="background-color: #001f3f; color: white; font-family: sans-serif; text-align: center; padding: 20px;">
-    <div style="font-size: 80px; margin-top: 40px;">🎓</div>
+<body>
+    <div class="icon">🎓</div>
     <h1>ACADÊMICO</h1>
-    <p>Suporte em TCC e Oportunidades de Estágio Remoto</p>
-
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 15px; margin-top: 30px;">
-        <a href="#" style="background-color: white; color: #001f3f; padding: 15px 30px; border-radius: 30px; text-decoration: none; font-weight: bold; width: 280px;">ORIENTAÇÃO DE TCC</a>
-        <a href="#" style="background-color: white; color: #001f3f; padding: 15px 30px; border-radius: 30px; text-decoration: none; font-weight: bold; width: 280px;">ESTÁGIO REMOTO</a>
-        <a href="#" style="background-color: white; color: #001f3f; padding: 15px 30px; border-radius: 30px; text-decoration: none; font-weight: bold; width: 280px;">MODELOS DE DOCUMENTOS</a>
+    <p style="margin-bottom: 30px; opacity: 0.8;">Suporte em TCC e Estágio Remoto</p>
+    <div class="btn-list">
+        <a href="#" class="btn">ORIENTAÇÃO DE TCC</a>
+        <a href="#" class="btn">ESTÁGIO REMOTO</a>
+        <a href="#" class="btn">MODELOS DE TRABALHOS</a>
     </div>
     <script src="footer.js"></script>
 </body>
