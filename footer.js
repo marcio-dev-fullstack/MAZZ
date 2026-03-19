@@ -12,7 +12,7 @@ const footerHTML = `
         
         <p style="font-size: 0.85em; opacity: 0.7; margin: 0;">&copy; 2026 MAZZ - Todos os direitos reservados.</p>
         <div style="margin-top: 15px; font-size: 0.75em; opacity: 0.5;">
-            Desenvolvido por: <a href="http://www.razgo.com.br" target="_blank" style="color: #4CAF50; text-decoration: none; font-weight: bold;">RAZGO</a>
+            Desenvolvido por: <a href="http://www.razgo.com.br" target="_blank" style="color: #4CAF50; text-decoration: none; font-weight: bold;"><span>RAZGO</span></a>
         </div>
     </footer>
 `;
